@@ -3,7 +3,7 @@
 Disclosure: This README turned out a little longer than expected, so don't worry if you don't remember everything. 
 However, if there's one thing I hope you remember, it's this simple story:
 
-Alice and Bob both use the password `sunshine123` on a website called CoolSite.
+SpongeBob and Batman both use the password `sunshine123` on a website called CoolSite.
 
 - **No hashing:** A hacker who breaks into the database can read both passwords.
 - **Hashing:** The database stores hash values instead, but since the passwords match, so do the hash values. Crack one, and you know both.
