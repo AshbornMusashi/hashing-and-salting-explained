@@ -7,7 +7,7 @@ SpongeBob and Batman both use the password `sunshine123` on a website called Coo
 
 - **No hashing:** A hacker who breaks into the database can read both passwords.
 - **Hashing:** The database stores hash values instead, but since the passwords match, so do the hash values. Crack one, and you know both.
-- **Hashing + salting:** Each password gets its own random salt, so Alice and Bob end up with completely different hashes. 🎉
+- **Hashing + salting:** Each password gets its own random salt, so SpongeBob and Batman end up with completely different hash values. 🎉
 
 
 ## 1. What is Hashing?
@@ -51,14 +51,9 @@ Hashing is one-way and can’t be reversed, so it’s used for storing passwords
 Encryption is reversible with a key, so it’s used to protect data you need to read later.
 
 
-### ⚠️ A Security Note
-
-SHA-256 is fast, which helps attackers guess passwords quickly. Real websites should use **Argon2id, bcrypt, or scrypt** instead.
-
 ## Conclusion
 
 Hashing turns data into fixed-length outputs, and salting adds extra protection when storing passwords. 
-These concepts are a great starting point for learning about cryptography and security.
 
 🎉 All contributions are welcome—feel free to fork the repo and submit a pull request anytime!
 Thanks for reading
