@@ -56,4 +56,6 @@ Encryption is reversible with a key, so it’s used to protect data you need to 
 Hashing turns data into fixed-length outputs, and salting adds extra protection when storing passwords. 
 
 🎉 All contributions are welcome—feel free to fork the repo and submit a pull request anytime!
-Thanks for reading
+P.S. Please try out the hashing code in the examples folder! I'd love for you to see how it works for yourself. 😁
+
+Thanks you so much for reading!!
