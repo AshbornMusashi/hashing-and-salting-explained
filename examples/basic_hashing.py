@@ -1,8 +1,12 @@
-import hashlib  # A library containing different hashing algorithms.
+# A library containing different hashing algorithms.
+import hashlib 
 
-def hash_data(data):  # We create a function called hash_data.
-    result = hashlib.sha256(data.encode())  # This is where the actual hashing occurs using SHA-256.
-    return result.hexdigest()  # Converts the hash from raw bytes into a readable hexadecimal string.
+# We create a function called hash_data.
+def hash_data(data):  
+     # This is where the actual hashing occurs using SHA-256.
+    result = hashlib.sha256(data.encode())
+    # Converts the hash from raw bytes into a readable hexadecimal string.
+    return result.hexdigest()  
 
-
-print(hash_data("sunshine123"))  # We print out the hashed value.
+# We print out the hashed value.
+print(hash_data("sunshine123"))  
