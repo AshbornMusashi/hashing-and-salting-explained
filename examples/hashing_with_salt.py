@@ -1,11 +1,15 @@
-import hashlib  # Library containing hashing algorithms.
-import random   # Library for generating random values.
+# Library containing hashing algorithms.
+import hashlib  
+# Library for generating random values.
+import random   
 
 def hash_data(data, salt):
-    result = hashlib.sha256((data + salt).encode())  # Combine the data and salt before hashing.
-    return result.hexdigest()  # Convert the hash into a readable hexadecimal string.
+    # Combine the data and salt before hashing.
+    result = hashlib.sha256((data + salt).encode())
+    # Convert the hash into a readable hexadecimal string.
+    return result.hexdigest()  
 
-
+#a random password stored in a variable
 password = "sunshine123"
 
 # Generate two different salts.
